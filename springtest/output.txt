@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gs-rest-service 0.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gs-rest-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\_develop\git_projects\springtest\src\main\resources
+[INFO] skip non existing resourceDirectory E:\_develop\git_projects\springtest\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gs-rest-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gs-rest-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\_develop\git_projects\springtest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gs-rest-service ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ gs-rest-service ---
+[INFO] Surefire report directory: E:\_develop\git_projects\springtest\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.mark.springtest.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.mark.springtest.AppTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:jar (default-jar) @ gs-rest-service ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.2.3.RELEASE:repackage (default) @ gs-rest-service ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.322 s
+[INFO] Finished at: 2015-05-24T19:44:33+08:00
+[INFO] Final Memory: 16M/309M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:1.2.3.RELEASE:repackage (default) on project gs-rest-service: Execution default of goal org.springframework.boot:spring-boot-maven-plugin:1.2.3.RELEASE:repackage failed: Unable to find main class -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
